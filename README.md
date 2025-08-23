@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌐 Portfolio - Gm Somera
 
-## Getting Started
+This is my personal developer portfolio built with **Next.js 14** and **Tailwind CSS**.  
+It showcases my projects, skills, and contact information.
 
-First, run the development server:
+---
+
+## 🚀 Tech Stack
+- [Next.js](https://nextjs.org/) (App Router)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide React](https://lucide.dev/) (icons)
+- [Biome](https://biomejs.dev/) (formatter & linter)
+
+---
+
+## 📸 Preview
+![Portfolio Screenshot](https://via.placeholder.com/1000x600?text=Portfolio+Preview)
+
+---
+
+## 📂 Sections
+- **Home** – short intro about me  
+- **About** – my background & skills  
+- **Projects** – featured work with live links & GitHub repos  
+- **Contact** – how to reach me  
+
+---
+
+## 📦 Installation
+If you’d like to run this locally:
 
 ```bash
+# Clone the repo
+git clone https://github.com/<your-username>/portfolio-v1.git
+
+# Move into project folder
+cd portfolio-v1
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+App will be running at http://localhost:3000
 ```
+## 📜 License
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project is open source and available under the MIT License
+.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 💡 Built with ❤️ by Gm Somera
