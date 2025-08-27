@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <div className="font-sans bg-gray-50 text-gray-800 min-h-screen">
@@ -36,19 +38,29 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center mb-12">Projects</h2>
 
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {/* Project Card Example */}
+            {/* Project Card */}
             <div className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition">
-              <img
-                src="https://via.placeholder.com/400x250"
-                alt="Project screenshot"
+              <Image
+                src="/projects/landing-page/images/preview.jpg"
+                alt="Clipboard landing page preview"
+                width={600}
+                height={400}
+                className="w-full h-auto"
+                priority
               />
+
               <div className="p-4">
-                <h3 className="text-xl font-semibold mb-2">Project Title</h3>
+                <h3 className="text-xl font-semibold mb-2">
+                  Clipboard Landing Page
+                </h3>
                 <p className="text-gray-600 mb-4">
-                  Short description of the project goes here.
+                  A responsive SaaS landing page challenge from Frontend Mentor.
                 </p>
                 <div className="flex space-x-4">
-                  <a href="#" className="text-blue-600 hover:underline">
+                  <a
+                    href="/projects/landing-page"
+                    className="text-blue-600 hover:underline"
+                  >
                     Live Demo
                   </a>
                   <a href="#" className="text-gray-600 hover:underline">
@@ -57,8 +69,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
-            {/* Add more project cards as you go */}
           </div>
         </div>
       </section>
